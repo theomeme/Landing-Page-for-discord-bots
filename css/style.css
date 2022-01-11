@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+body {
+  font-size: 100%;
+  background: url(../Assets/pexels-chuck-johnson-6369344.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+.cabecalho-image {
+  width: 72px;
+}
+.cabecalho-pre {
+  width: 25px;
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+.cabecalho-menu-item {
+  font-family: inherit;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container {
+  border-top: 0.4px solid gray;
+  margin-bottom: 48px;
+}
+h1 {
+  display: block;
+  color: rgb(242, 244, 251);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  width: 460px;
+  max-width: 100%;
+  margin-left: 250px;
+  padding-top: 20px;
+}
+h2 {
+  width: 360px;
+  margin-top: 28px;
+  max-width: 100%;
+  margin-left: 250px;
+}
+.secContainer {
+  box-sizing: border-box;
+  border: 0px;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0px;
+  outline: 0px;
+  padding: 0px;
+  vertical-align: baseline;
+  margin-left: 250px;
+}
+h3 {
+  margin-left: 250px;
+}
+.image-main {
+  margin-left: 250px;
+}
+header {
+}
